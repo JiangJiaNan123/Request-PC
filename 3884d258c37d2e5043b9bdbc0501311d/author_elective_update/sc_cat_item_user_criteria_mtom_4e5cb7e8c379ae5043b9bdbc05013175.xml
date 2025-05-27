@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Request a new PC">2076cce8c3b56e5043b9bdbc050131f7</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:19:21</sys_created_on>
+        <sys_id>4e5cb7e8c379ae5043b9bdbc05013175</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a new PC.Any User</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_4e5cb7e8c379ae5043b9bdbc05013175</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:19:21</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</application>
+        <file_path/>
+        <instance_id>147b444efb3f5e188515f4344eefdcf8</instance_id>
+        <instance_name>dev296769</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_4e5cb7e8c379ae5043b9bdbc05013175</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request a new PC">2076cce8c3b56e5043b9bdbc050131f7</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-26 04:19:21</sys_created_on><sys_id>4e5cb7e8c379ae5043b9bdbc05013175</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Request a new PC.Any User</sys_name><sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package><sys_policy/><sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_4e5cb7e8c379ae5043b9bdbc05013175</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-26 04:19:21</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-2099623772</payload_hash>
+        <record_name>Request a new PC.Any User</record_name>
+        <reverted_from/>
+        <source>7484d258c37d2e5043b9bdbc05013122</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:19:21</sys_created_on>
+        <sys_id>465cb7e8c379ae5043b9bdbc05013179</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1970ad1099d0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:19:21</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>865cb7e8b479ae50bf3aa2008f8e2578</update_guid>
+        <update_guid_history>865cb7e8b479ae50bf3aa2008f8e2578:-2099623772</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Request a new PC.Any User">a9104830c3b9ae5043b9bdbc0501314a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-26 04:35:42</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>000a269f89434ff29b3e68012590e7c1</sys_id>
+        <sys_metadata>4e5cb7e8c379ae5043b9bdbc05013175</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Request a new PC.Any User</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_scope_delete display_value="">928d71fe2e024a60a2274b71d61f20e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_4e5cb7e8c379ae5043b9bdbc05013175</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_4e5cb7e8c379ae5043b9bdbc05013175">465cb7e8c379ae5043b9bdbc05013179</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-26 04:35:42</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

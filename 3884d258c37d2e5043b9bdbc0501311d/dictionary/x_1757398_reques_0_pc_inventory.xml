@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3669ba94c3316e5043b9bdbc050131a1" label="PC Inventory" max_length="40" name="x_1757398_reques_0_pc_inventory" type="collection">
+        <element label="Assigned By" max_length="32" name="assigned_by" reference="sys_user" type="reference"/>
+        <element label="PC Model" max_length="32" name="pc_model" reference="x_1757398_reques_0_pc_model" type="reference"/>
+        <element label="Assigned to" max_length="32" name="assigned_to" reference="x_1757398_reques_0_pc_request" type="reference"/>
+        <element choice="3" display="true" label="PC Status" max_length="40" name="pc_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Assigned" sequence="0" value="assigned"/>
+                <element inactive_on_update="false" label="Available" sequence="1" value="available"/>
+            </choice>
+        </element>
+        <element label="PC Serial No" max_length="40" name="pc_serial_no" type="string"/>
+        <index name="index">
+            <element name="assigned_by"/>
+        </index>
+        <index name="index2">
+            <element name="assigned_to"/>
+        </index>
+    </element>
+</database>

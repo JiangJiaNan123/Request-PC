@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7d27fad0c3316e5043b9bdbc05013163" label="PC Request" max_length="40" name="x_1757398_reques_0_pc_request" type="collection">
+        <element choice="3" label="Request Status" max_length="40" name="request_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="approved" sequence="1" value="approved"/>
+                <element inactive_on_update="false" label="requested" sequence="0" value="requested"/>
+                <element inactive_on_update="false" label="closed incomplete" sequence="4" value="closed_incomplete"/>
+                <element inactive_on_update="false" label="rejected" sequence="2" value="rejected"/>
+                <element inactive_on_update="false" label="closed complete" sequence="3" value="closed_complete"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Request PC Model" max_length="32" name="request_pc_model" reference="x_1757398_reques_0_pc_model" type="reference"/>
+        <element label="Request By" max_length="32" name="request_by" reference="sys_user" type="reference"/>
+        <element label="Comment" max_length="140" name="comment" type="string"/>
+        <element display="true" label="Assign To" max_length="32" name="assign_to" reference="sys_user" type="reference"/>
+        <element label="Onboard Status" max_length="40" name="onboard_status" type="boolean"/>
+        <index name="index">
+            <element name="assign_to"/>
+        </index>
+        <index name="index2">
+            <element name="request_by"/>
+        </index>
+        <index name="index3">
+            <element name="request_pc_model"/>
+        </index>
+    </element>
+</database>
