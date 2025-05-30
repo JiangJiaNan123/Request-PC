@@ -44,7 +44,7 @@
         <mask_use_encryption>false</mask_use_encryption>
         <name>section_widget</name>
         <not_available_conversation>false</not_available_conversation>
-        <order>-100</order>
+        <order>1</order>
         <post_insert_script/>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
@@ -79,14 +79,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2025-05-30 02:16:39</sys_created_on>
         <sys_id>12d588c6c3bd269043b9bdbc050131c4</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Section Widget</sys_name>
         <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
         <sys_policy/>
         <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
         <sys_update_name>item_option_new_12d588c6c3bd269043b9bdbc050131c4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-05-30 07:38:10</sys_updated_on>
+        <sys_updated_on>2025-05-30 08:30:00</sys_updated_on>
         <table/>
         <tooltip/>
         <topic_block/>
