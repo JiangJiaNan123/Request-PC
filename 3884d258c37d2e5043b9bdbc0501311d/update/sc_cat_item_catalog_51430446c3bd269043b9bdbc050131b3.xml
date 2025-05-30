@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="CatalogItem-2">a2800042c3bd269043b9bdbc050131be</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 02:02:01</sys_created_on>
+        <sys_id>51430446c3bd269043b9bdbc050131b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.CatalogItem-2</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_51430446c3bd269043b9bdbc050131b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 02:02:01</sys_updated_on>
+    </sc_cat_item_catalog>
+</record_update>

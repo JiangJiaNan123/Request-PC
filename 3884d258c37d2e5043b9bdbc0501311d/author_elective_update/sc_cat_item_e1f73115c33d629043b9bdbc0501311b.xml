@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item">
+    <sc_cat_item action="DELETE">
+        <access_type>restricted</access_type>
+        <active>true</active>
+        <availability>on_desktop</availability>
+        <billable>false</billable>
+        <category/>
+        <checked_out/>
+        <cost>0</cost>
+        <custom_cart/>
+        <delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan>
+        <delivery_plan_script/>
+        <delivery_time>1970-01-03 00:00:00</delivery_time>
+        <description/>
+        <display_price_property>non_zero</display_price_property>
+        <entitlement_script/>
+        <flow_designer_flow/>
+        <fulfillment_automation_level>unspecified</fulfillment_automation_level>
+        <group/>
+        <hide_sp>false</hide_sp>
+        <icon/>
+        <ignore_price>true</ignore_price>
+        <image/>
+        <location/>
+        <make_item_non_conversational>false</make_item_non_conversational>
+        <mandatory_attachment>false</mandatory_attachment>
+        <meta/>
+        <mobile_hide_price>false</mobile_hide_price>
+        <mobile_picture/>
+        <mobile_picture_type>use_desktop_picture</mobile_picture_type>
+        <model/>
+        <name>Different section to display fields</name>
+        <no_attachment_v2>false</no_attachment_v2>
+        <no_cart>false</no_cart>
+        <no_cart_v2>false</no_cart_v2>
+        <no_delivery_time_v2>false</no_delivery_time_v2>
+        <no_order>false</no_order>
+        <no_order_now>false</no_order_now>
+        <no_proceed_checkout>false</no_proceed_checkout>
+        <no_quantity>false</no_quantity>
+        <no_quantity_v2>false</no_quantity_v2>
+        <no_save_as_draft>false</no_save_as_draft>
+        <no_search>false</no_search>
+        <no_wishlist_v2>false</no_wishlist_v2>
+        <omit_price>false</omit_price>
+        <order>0</order>
+        <ordered_item_link/>
+        <owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner>
+        <picture/>
+        <preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e1f73115c33d629043b9bdbc0501311b&amp;sysparm_preview=true", "summary");</preview>
+        <price>0</price>
+        <published_ref/>
+        <recurring_frequency/>
+        <request_method/>
+        <roles/>
+        <sc_catalogs/>
+        <sc_ic_item_staging/>
+        <sc_ic_version/>
+        <sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template>
+        <short_description>Click each section to switch the content of the section.</short_description>
+        <show_variable_help_on_load>false</show_variable_help_on_load>
+        <start_closed>false</start_closed>
+        <state/>
+        <sys_class_name>sc_cat_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:36:24</sys_created_on>
+        <sys_id>e1f73115c33d629043b9bdbc0501311b</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Different section to display fields</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sc_cat_item_e1f73115c33d629043b9bdbc0501311b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 04:32:01</sys_updated_on>
+        <taxonomy_topic/>
+        <template/>
+        <template_manager_roles/>
+        <type>item</type>
+        <use_sc_layout>true</use_sc_layout>
+        <vendor/>
+        <version>7</version>
+        <visible_bundle>true</visible_bundle>
+        <visible_guide>true</visible_guide>
+        <visible_standalone>true</visible_standalone>
+        <workflow/>
+    </sc_cat_item>
+    <sys_translated_text action="DELETE" query="documentkey=e1f73115c33d629043b9bdbc0501311b"/>
+    <fx_price action="DELETE" query="id=e1f73115c33d629043b9bdbc0501311b"/>
+    <fx_price action="DELETE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>price</field>
+        <id>e1f73115c33d629043b9bdbc0501311b</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-28 02:36:24</sys_created_on>
+        <sys_id>61f73115c33d629043b9bdbc05013120</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-28 02:36:24</sys_updated_on>
+        <table>sc_cat_item</table>
+        <type>calculated</type>
+    </fx_price>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</application>
+        <file_path/>
+        <instance_id>147b444efb3f5e188515f4344eefdcf8</instance_id>
+        <instance_name>dev296769</instance_name>
+        <name>sc_cat_item_e1f73115c33d629043b9bdbc0501311b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item"><sc_cat_item action="INSERT_OR_UPDATE"><access_type>restricted</access_type><active>true</active><availability>on_desktop</availability><billable>false</billable><category/><checked_out/><cost>0</cost><custom_cart/><delivery_plan display_value="DEFAULT">523da512c611228900811a37c97c2014</delivery_plan><delivery_plan_script/><delivery_time>1970-01-03 00:00:00</delivery_time><description/><display_price_property>non_zero</display_price_property><entitlement_script/><flow_designer_flow/><fulfillment_automation_level>unspecified</fulfillment_automation_level><group/><hide_sp>false</hide_sp><icon/><ignore_price>true</ignore_price><image/><location/><make_item_non_conversational>false</make_item_non_conversational><mandatory_attachment>false</mandatory_attachment><meta/><mobile_hide_price>false</mobile_hide_price><mobile_picture/><mobile_picture_type>use_desktop_picture</mobile_picture_type><model/><name>Different section to display fields</name><no_attachment_v2>false</no_attachment_v2><no_cart>false</no_cart><no_cart_v2>false</no_cart_v2><no_delivery_time_v2>false</no_delivery_time_v2><no_order>false</no_order><no_order_now>false</no_order_now><no_proceed_checkout>false</no_proceed_checkout><no_quantity>false</no_quantity><no_quantity_v2>false</no_quantity_v2><no_save_as_draft>false</no_save_as_draft><no_search>false</no_search><no_wishlist_v2>false</no_wishlist_v2><omit_price>false</omit_price><order>0</order><ordered_item_link/><owner display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</owner><picture/><preview>JavaScript: popupOpenStandard("com.glideapp.servicecatalog_cat_item_view.do?v=1&amp;sysparm_id=e1f73115c33d629043b9bdbc0501311b&amp;sysparm_preview=true", "summary");</preview><price>0</price><published_ref/><recurring_frequency/><request_method/><roles/><sc_catalogs/><sc_ic_item_staging/><sc_ic_version/><sc_template display_value="AES Standard items in Service Catalog">03302dd377023010f082d599cf5a99ba</sc_template><short_description>Click each section to switch the content of the section.</short_description><show_variable_help_on_load>false</show_variable_help_on_load><start_closed>false</start_closed><state/><sys_class_name>sc_cat_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 02:36:24</sys_created_on><sys_id>e1f73115c33d629043b9bdbc0501311b</sys_id><sys_mod_count>7</sys_mod_count><sys_name>Different section to display fields</sys_name><sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package><sys_policy/><sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope><sys_update_name>sc_cat_item_e1f73115c33d629043b9bdbc0501311b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-29 04:32:01</sys_updated_on><taxonomy_topic/><template/><template_manager_roles/><type>item</type><use_sc_layout>true</use_sc_layout><vendor/><version>7</version><visible_bundle>true</visible_bundle><visible_guide>true</visible_guide><visible_standalone>true</visible_standalone><workflow/></sc_cat_item><sys_translated_text action="delete_multiple" query="documentkey=e1f73115c33d629043b9bdbc0501311b"/><fx_price action="delete_multiple" query="id=e1f73115c33d629043b9bdbc0501311b"/><fx_price action="INSERT_OR_UPDATE"><amount>0</amount><currency display_value="USD">USD</currency><field>price</field><id>e1f73115c33d629043b9bdbc0501311b</id><parent/><reference_amount>0</reference_amount><reference_currency display_value="USD">USD</reference_currency><sys_created_by>admin</sys_created_by><sys_created_on>2025-05-28 02:36:24</sys_created_on><sys_id>61f73115c33d629043b9bdbc05013120</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-05-28 02:36:24</sys_updated_on><table>sc_cat_item</table><type>calculated</type></fx_price></record_update>]]></payload>
+        <payload_hash>-960227853</payload_hash>
+        <record_name>Different section to display fields</record_name>
+        <reverted_from/>
+        <source>f3a2758dc3f5229043b9bdbc0501312a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-29 04:32:02</sys_created_on>
+        <sys_id>890c9329c3f5e29043b9bdbc05013101</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1971a4fbba60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-29 04:32:02</sys_updated_on>
+        <type>Catalog Item</type>
+        <update_guid>cd0c9329a0f5e29092689c8591c01100</update_guid>
+        <update_guid_history>cd0c9329a0f5e29092689c8591c01100:-960227853,aeb8b155343d6290fccb2dfbda236a74:1578726973,0eb87155213d62908f22f56ef28af1fe:-1011609476,4968f915d13d62907ce824185b0e8410:693021371,7658b915aa3d6290cec2f3c966d59717:1028702652,3148f5150e3d6290842f3b3aaed91d46:-1340625097,bdf731152b3d62902deb642eb7cd7246:677622637,e5f73115c53d6290a0534748e1a1173e:-1368766955</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Different section to display fields">150c9329c3f5e29043b9bdbc05013106</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2025-05-29 04:32:02</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item">sc_cat_item</sys_db_object>
+        <sys_id>d52d52e4a7644e4a9484df0112a50e99</sys_id>
+        <sys_metadata>e1f73115c33d629043b9bdbc0501311b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Different section to display fields</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_scope_delete display_value="">928d71fe2e024a60a2274b71d61f20e4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_e1f73115c33d629043b9bdbc0501311b</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_e1f73115c33d629043b9bdbc0501311b">890c9329c3f5e29043b9bdbc05013101</sys_update_version>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-05-29 04:32:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

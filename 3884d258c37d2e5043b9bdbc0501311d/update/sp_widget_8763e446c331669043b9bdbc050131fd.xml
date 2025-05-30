@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function($scope) {
+  /* widget controller */
+  var c = this;
+	var gform = $scope.page.g_form;
+	
+	$scope.setTabIndex = function(index, $event) {
+			var oldValue = gform.getValue('current_section');
+		
+		  gform.setValue('current_section', index);
+		  $event.target.classList.remove('btn-default');
+		  $event.target.classList.add('btn-primary');
+		SetActiveButton();
+		
+	}
+	
+	function SetActiveButton(){
+		var activeTab = gform.getValue('current_section');
+		$('[data-tab-index="' + activeTab + '"]').removeClass('btn-default').addClass('btn-primary');
+		
+		$('[data-tab-index]').filter(function(){
+			return $(this).attr('data-tab-index') != activeTab;
+		}).removeClass('btn-primary').addClass('btn-default');
+				
+	}
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.btn-breadcrumb .btn:not(:last-child):after {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid white;
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  left: 100%;
+  z-index: 3;
+}
+.btn-breadcrumb .btn:not(:last-child):before {
+  content: " ";
+  display: block;
+  width: 0;
+  height: 0;
+  border-top: 17px solid transparent;
+  border-bottom: 17px solid transparent;
+  border-left: 10px solid rgb(173, 173, 173);
+  position: absolute;
+  top: 50%;
+  margin-top: -17px;
+  margin-left: 1px;
+  left: 100%;
+  z-index: 3;
+}
+
+/** The Spacing **/
+.btn-breadcrumb .btn {
+  padding:6px 12px 6px 24px;
+  font-size:16px;
+}
+.btn-breadcrumb .btn:first-child {
+  padding:6px 6px 6px 10px;
+}
+.btn-breadcrumb .btn:last-child {
+  padding:6px 18px 6px 24px;
+}
+
+/** Default button **/
+.btn-breadcrumb .btn.btn-default:not(:last-child):after {
+  border-left: 10px solid #fff;
+}
+.btn-breadcrumb .btn.btn-default:not(:last-child):before {
+  border-left: 10px solid #ccc;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):after {
+  border-left: 10px solid #ebebeb;
+}
+.btn-breadcrumb .btn.btn-default:hover:not(:last-child):before {
+  border-left: 10px solid #adadad;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>catalogitem-2_widget</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>CatalogItem-2 Widget</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 04:22:29</sys_created_on>
+        <sys_id>8763e446c331669043b9bdbc050131fd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>CatalogItem-2 Widget</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sp_widget_8763e446c331669043b9bdbc050131fd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 07:18:52</sys_updated_on>
+        <template><![CDATA[<div class="btn-group btn-breadcrumb">
+  <a ng-click="c.setSection1Visible()" class="btn btn-default"><i class="glyphicon glyphicon-home"></i></a>
+  <a ng-click="setTabIndex('1',$event)" class="btn btn-primary" data-tab-index="1">Step1</a>
+  <a ng-click="setTabIndex('2', $event)" class="btn btn-default" data-tab-index="2">Step2</a>
+  <a ng-click="setTabIndex('3', $event)" class="btn btn-default" data-tab-index="3">Step3</a>
+  <a ng-click="setTabIndex('4', $event)" class="btn btn-default" data-tab-index="4">Step4</a>
+  <a ng-click="setTabIndex('5', $event)" class="btn btn-default" data-tab-index="5">Step5</a>
+</div>]]></template>
+    </sp_widget>
+    <sys_es_latest_script action="INSERT_OR_UPDATE">
+        <id>8763e446c331669043b9bdbc050131fd</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-05-30 04:22:29</sys_created_on>
+        <sys_id>cf63244ec331669043b9bdbc050131ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-05-30 04:22:29</sys_updated_on>
+        <table>sp_widget</table>
+        <use_es_latest>true</use_es_latest>
+    </sys_es_latest_script>
+</record_update>
