@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1757398_reques_0.UpdateComment</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>UpdateComment</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var UpdateComment = Class.create();
+UpdateComment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'UpdateComment'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 07:27:14</sys_created_on>
+        <sys_id>674ffab9c3466e1043b9bdbc05013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UpdateComment</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sys_script_include_674ffab9c3466e1043b9bdbc05013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 07:27:14</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</application>
+        <file_path/>
+        <instance_id>147b444efb3f5e188515f4344eefdcf8</instance_id>
+        <instance_name>dev296769</instance_name>
+        <name>sys_script_include_674ffab9c3466e1043b9bdbc05013146</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_1757398_reques_0.UpdateComment&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description/&gt;&lt;mobile_callable&gt;false&lt;/mobile_callable&gt;&lt;name&gt;UpdateComment&lt;/name&gt;&lt;sandbox_callable&gt;true&lt;/sandbox_callable&gt;&lt;script&gt;&lt;![CDATA[var UpdateComment = Class.create();
+UpdateComment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    type: 'UpdateComment'
+});]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-11 07:27:14&lt;/sys_created_on&gt;&lt;sys_id&gt;674ffab9c3466e1043b9bdbc05013146&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;UpdateComment&lt;/sys_name&gt;&lt;sys_package display_value="Request PC" source="x_1757398_reques_0"&gt;3884d258c37d2e5043b9bdbc0501311d&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="Request PC"&gt;3884d258c37d2e5043b9bdbc0501311d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_674ffab9c3466e1043b9bdbc05013146&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-11 07:27:14&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1279139698</payload_hash>
+        <record_name>UpdateComment</record_name>
+        <reverted_from/>
+        <source>f3a2758dc3f5229043b9bdbc0501312a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 07:27:15</sys_created_on>
+        <sys_id>aec08b3dc3466e1043b9bdbc0501311a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1975de2d2060000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 07:27:15</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>a2c08b3da2466e10d8e1a42da78e3f1a</update_guid>
+        <update_guid_history>a2c08b3da2466e10d8e1a42da78e3f1a:-1279139698</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 02:10:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>0b371bf9c1494a90bec211720ada0b10</sys_id>
+        <sys_metadata>674ffab9c3466e1043b9bdbc05013146</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UpdateComment</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_scope_delete display_value="">928d71fe2e024a60a2274b71d61f20e4</sys_scope_delete>
+        <sys_update_name>sys_script_include_674ffab9c3466e1043b9bdbc05013146</sys_update_name>
+        <sys_update_version display_value="sys_script_include_674ffab9c3466e1043b9bdbc05013146">aec08b3dc3466e1043b9bdbc0501311a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 02:10:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

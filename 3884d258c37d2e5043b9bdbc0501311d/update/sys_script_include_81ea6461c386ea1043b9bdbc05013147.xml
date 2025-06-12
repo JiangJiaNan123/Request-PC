@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1757398_reques_0.ClearComment</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>ClearComment</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var ClearComment = Class.create();
+ClearComment.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    clearCommentField: function() {
+
+        var assignto = this.getParameter('sysparm_assign_to');
+        //gs.info('assignto: ');
+        // gs.info(assignto);
+
+        var rs = new GlideRecord('x_1757398_reques_0_pc_request');
+        rs.addQuery('assign_to', assignto);
+        rs.query();
+        if (rs.next()) {
+            //gs.info(rs.getValue('comment'));
+            rs.setValue('comment', '');
+            rs.update();
+            return 'OK';
+        }
+        return 'NG';
+    },
+
+    type: 'ClearComment'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-10 05:22:47</sys_created_on>
+        <sys_id>81ea6461c386ea1043b9bdbc05013147</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_name>ClearComment</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sys_script_include_81ea6461c386ea1043b9bdbc05013147</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 02:13:01</sys_updated_on>
+    </sys_script_include>
+</record_update>

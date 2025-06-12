@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sc_cat_item display_value="Insert PC inventory record">b67fe1e5c3caea1043b9bdbc0501311c</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-10 06:57:57</sys_created_on>
+        <sys_id>f3703d29c3caea1043b9bdbc0501312a</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MRVS info.Insert PC inventory record</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>io_set_item_f3703d29c3caea1043b9bdbc0501312a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-10 06:57:58</sys_updated_on>
+        <variable_set display_value="MRVS info">4459a5edc38aea1043b9bdbc05013190</variable_set>
+    </io_set_item>
+</record_update>

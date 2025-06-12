@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script><![CDATA[function actionOK() {
+
+	var data = gel('notes').value;
+	var sysId = gel('task_sys_id');
+	var ga = new GlideAjax('UpdateComment');
+
+	ga.addParam('sysparm_name', 'clearComments');
+	ga.addParam('sysparm_assign_to', g_form.getValue('assign_to'));
+	ga.getXML(parseResponse);
+
+	return true;
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_1757398_reques_0_update_comment.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g:ui_form>
+		<g:evaluate var="jvar_sysid" expression="RP.getWindowProperties().sysid" />
+		<div border="0" width="30%" text-align="center">
+			<td>
+				<g:ui_multiline_input_field name="notes" label="update" mandatory="true" />
+				<g:dialog_buttons_ok_cancel ok="return actionOK()" ok_id="ok_button" cancel_type="button" />
+				<input type="hidden" id="task_sys_id" name="task_sys_id" value="${jvar_sysid}" />
+			</td>
+		</div>
+	</g:ui_form>
+</j:jelly>]]></html>
+        <name>update_comment</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 07:26:50</sys_created_on>
+        <sys_id>efbab671c3466e1043b9bdbc0501316e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_comment</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sys_ui_page_efbab671c3466e1043b9bdbc0501316e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 07:26:50</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</application>
+        <file_path/>
+        <instance_id>147b444efb3f5e188515f4344eefdcf8</instance_id>
+        <instance_name>dev296769</instance_name>
+        <name>sys_ui_page_efbab671c3466e1043b9bdbc0501316e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function actionOK() {
+
+	var data = gel('notes').value;
+	var sysId = gel('task_sys_id');
+	var ga = new GlideAjax('UpdateComment');
+
+	ga.addParam('sysparm_name', 'clearComments');
+	ga.addParam('sysparm_assign_to', g_form.getValue('assign_to'));
+	ga.getXML(parseResponse);
+
+	return true;
+}]]&gt;&lt;/client_script&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_1757398_reques_0_update_comment.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	&lt;g:ui_form&gt;
+		&lt;g:evaluate var="jvar_sysid" expression="RP.getWindowProperties().sysid" /&gt;
+		&lt;div border="0" width="30%" text-align="center"&gt;
+			&lt;td&gt;
+				&lt;g:ui_multiline_input_field name="notes" label="update" mandatory="true" /&gt;
+				&lt;g:dialog_buttons_ok_cancel ok="return actionOK()" ok_id="ok_button" cancel_type="button" /&gt;
+				&lt;input type="hidden" id="task_sys_id" name="task_sys_id" value="${jvar_sysid}" /&gt;
+			&lt;/td&gt;
+		&lt;/div&gt;
+	&lt;/g:ui_form&gt;
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name&gt;update_comment&lt;/name&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2025-06-11 07:26:50&lt;/sys_created_on&gt;&lt;sys_id&gt;efbab671c3466e1043b9bdbc0501316e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;update_comment&lt;/sys_name&gt;&lt;sys_package display_value="Request PC" source="x_1757398_reques_0"&gt;3884d258c37d2e5043b9bdbc0501311d&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Request PC"&gt;3884d258c37d2e5043b9bdbc0501311d&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_efbab671c3466e1043b9bdbc0501316e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2025-06-11 07:26:50&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>2076734208</payload_hash>
+        <record_name>update_comment</record_name>
+        <reverted_from/>
+        <source>f3a2758dc3f5229043b9bdbc0501312a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-11 07:26:51</sys_created_on>
+        <sys_id>68b0c73dc3466e1043b9bdbc050131fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1975de272fd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-11 07:26:51</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>6cb0c73d73466e10063b956c71231cfd</update_guid>
+        <update_guid_history>6cb0c73d73466e10063b956c71231cfd:2076734208</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 02:10:57</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>1857344c679d4f80b45f8c5351c1f640</sys_id>
+        <sys_metadata>efbab671c3466e1043b9bdbc0501316e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update_comment</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_scope_delete display_value="">928d71fe2e024a60a2274b71d61f20e4</sys_scope_delete>
+        <sys_update_name>sys_ui_page_efbab671c3466e1043b9bdbc0501316e</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_efbab671c3466e1043b9bdbc0501316e">68b0c73dc3466e1043b9bdbc050131fe</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 02:10:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
