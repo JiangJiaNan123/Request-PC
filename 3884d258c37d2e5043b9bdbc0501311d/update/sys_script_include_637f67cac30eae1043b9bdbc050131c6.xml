@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1757398_reques_0.GetStateFromLastForm</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>GetStateFromLastForm</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var GetStateFromLastForm = Class.create();
+GetStateFromLastForm.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getStateFun: function() {
+        var sys_id = this.getParameter('sysparm_sys_id');
+        var gr = new GlideRecord('sc_req_item');
+        if (gr.get(sys_id)) {
+            gs.error('state=' + gr.state);
+            gs.error('approval=' + gr.approval);
+            if (gr.state == 12) {
+                gs.error('return=' + '1');
+                return '1';
+            } else return '2';
+        }
+        return '';
+    },
+    type: 'GetStateFromLastForm'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 05:36:41</sys_created_on>
+        <sys_id>637f67cac30eae1043b9bdbc050131c6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GetStateFromLastForm</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sys_script_include_637f67cac30eae1043b9bdbc050131c6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 05:36:41</sys_updated_on>
+    </sys_script_include>
+</record_update>

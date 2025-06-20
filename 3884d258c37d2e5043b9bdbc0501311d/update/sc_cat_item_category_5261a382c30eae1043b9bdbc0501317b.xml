@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="CatalogItem-3-3">65b0ef02c30eae1043b9bdbc0501313c</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 04:28:15</sys_created_on>
+        <sys_id>5261a382c30eae1043b9bdbc0501317b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.CatalogItem-3-3</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sc_cat_item_category_5261a382c30eae1043b9bdbc0501317b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 04:28:15</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>

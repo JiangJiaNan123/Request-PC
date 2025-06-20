@@ -24,8 +24,8 @@
    }
 
    //Type appropriate comment here, and begin script below
-	var ga = new GlideAjax('TransferExcelData');
-	ga.addParam('sysparm_name', 'getData');
+	var ga = new GlideAjax('TransferExcelData');// 指向Script Include
+	ga.addParam('sysparm_name', 'getData');// 指定方法名
 	ga.addParam('sysparm_attachment_sysid', g_form.getValue('please_upload_excel_file'));
 	ga.getXML(function processResponse(response) {
 		var result = response.responseXML.documentElement.getAttribute("answer");
@@ -40,7 +40,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7602b1e9c3caea1043b9bdbc050131e2</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Transfer data to MRVS</sys_name>
         <sys_overrides/>
         <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
@@ -48,7 +48,7 @@
         <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
         <sys_update_name>catalog_script_client_7602b1e9c3caea1043b9bdbc050131e2</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-11 02:22:01</sys_updated_on>
+        <sys_updated_on>2025-06-15 05:55:07</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>10</ui_type>

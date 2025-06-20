@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1757398_reques_0.PrefillCatalogItemUtils</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>PrefillCatalogItemUtils</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var PrefillCatalogItemUtils = Class.create();
+PrefillCatalogItemUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	getPreviousRequestInfo: function() {
+		var aaaId = this.getParameter('sysparm_paraId');
+		var result = {};
+		var mtomGR = new GlideRecord('sc_item_option_mtom');
+		mtomGR.addQuery('request_item', aaaId);
+		gs.error('varibles0002432432:');
+		mtomGR.query();
+		gs.error('varibles1111:' + mtomGR);
+		while(mtomGR.next()) {
+			var optionGR = new GlideRecord('sc_item_option');
+			optionGR.get(mtomGR.sc_item_option);
+			gs.error('varibles1112:' + optionGR.value);
+			gs.error('varibles1112name:' + optionGR.item_option_new.name);
+			result[optionGR.item_option_new.name+''] = optionGR.value+'';
+		}
+		var jsson = new global.JSON().encode(result);
+		gs.error('json:' + jsson);
+		return jsson;
+	},
+    type: 'PrefillCatalogItemUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-12 05:29:31</sys_created_on>
+        <sys_id>9dd8230ec30eae1043b9bdbc05013176</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PrefillCatalogItemUtils</sys_name>
+        <sys_package display_value="Request PC" source="x_1757398_reques_0">3884d258c37d2e5043b9bdbc0501311d</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Request PC">3884d258c37d2e5043b9bdbc0501311d</sys_scope>
+        <sys_update_name>sys_script_include_9dd8230ec30eae1043b9bdbc05013176</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-12 05:29:31</sys_updated_on>
+    </sys_script_include>
+</record_update>
